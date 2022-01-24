@@ -1,0 +1,20 @@
+[INFO   ] Logger: Record log in C:\Users\Karcsi\PycharmProjects\Akasztofa/conf\logs\kivy_21-12-10_3.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\Karcsi\PycharmProjects\Akasztofa\venv\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\Karcsi\PycharmProjects\Akasztofa\venv\Scripts\python.exe"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "C:\Users\Karcsi\PycharmProjects\Akasztofa\main.py", line 35, in <module>
+[WARNING] stderr:     test_app.run()
+[WARNING] stderr:   File "C:\Users\Karcsi\PycharmProjects\Akasztofa\venv\lib\site-packages\kivy\app.py", line 949, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:   File "C:\Users\Karcsi\PycharmProjects\Akasztofa\venv\lib\site-packages\kivy\app.py", line 919, in _run_prepare
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "C:\Users\Karcsi\PycharmProjects\Akasztofa\main.py", line 21, in build
+[WARNING] stderr:     return Label(
+[WARNING] stderr: NameError: name 'Label' is not defined

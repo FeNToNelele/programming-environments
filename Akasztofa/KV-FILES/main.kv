@@ -1,0 +1,33 @@
+
+<Manager>:
+    MenuScreen:
+        name: "menu"
+    SummaryScreen:
+        name: "summary"
+    JatekWindow:
+        name: "jatek"
+
+<MenuScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        Button:
+            text: "Új játék"
+            size_hint: 0.3, 0.1
+            pos_hint: {"center_x":0.5,"center_y":0.5}
+            padding:
+            background_color: 0.3, 0.8, 0
+            font_size: 36
+            on_release:
+                app.root.current="jatek"
+                root.manager.transition.direction="left"
+
+<JatekWindow>:
+    on_enter: root.CreateWidgets()
+
+
+<SummaryScreen>:
+    on_enter: root.CreateWidgets()
+
+
