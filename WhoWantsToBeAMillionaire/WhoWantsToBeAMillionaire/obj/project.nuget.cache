@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n7uwQueOqUmMnnUIx7IWPumWuu4w7q/voTVRfnQ9JhszP/ORtOk3r5kVN65jSabo8985jSxAKC9gdNG4AYMj/A==",
+  "success": true,
+  "projectFilePath": "D:\\Programozás\\Progkörny\\WhoWantsToBeAMillionaire\\WhoWantsToBeAMillionaire\\WhoWantsToBeAMillionaire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gábor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
